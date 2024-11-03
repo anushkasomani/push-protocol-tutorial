@@ -23,7 +23,7 @@ const { chains, provider } = configureChains(
     jsonRpcProvider({
       rpc: () => {
         return {
-          http: 'https://rpc.sepolia.ankr.com',  
+          http: 'https://rpc.sepolia.ankr.com',  //sepolia 
         };
       },
     }),
@@ -33,7 +33,7 @@ const { chains, provider } = configureChains(
 
 
 const { connectors } = getDefaultWallets({
-  appName: 'Push Protocol Workshop',
+  appName: 'Push Protocol Demo  Project',
   chains,
 });
 
